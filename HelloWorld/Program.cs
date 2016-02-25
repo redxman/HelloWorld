@@ -10,9 +10,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            int i = 1;
-            i = i + 1;
-            Console.WriteLine(i.ToString());
+            int i = 1,j=1;
+            string welcome = "Welcome to the world!";
+            i = i+j + 1;
+            Console.WriteLine(welcome+i.ToString());
         }
     }
 }
